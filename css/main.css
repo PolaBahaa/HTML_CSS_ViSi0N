@@ -2112,6 +2112,12 @@ a {
   -o-transform: translate(-50%, -50%) rotate(-90deg);
 }
 
+@media (max-width: 767px) {
+  .scroll-button::after {
+    top: 50%;
+  }
+}
+
 .scroll-button:hover {
   opacity: 1;
 }
@@ -2158,6 +2164,12 @@ a {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+  #color-mode::after {
+    top: 50%;
+  }
 }
 
 #color-mode:hover {
