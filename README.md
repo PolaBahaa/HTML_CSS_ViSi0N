@@ -9,11 +9,13 @@
 5. Two Different Color Schemes Applied Even at Images --> Using only HTML & CSS.
 6. Styling Scroll Bar --> Using only CSS.
 7. Dynamic Scroll Bar Color Matching Color Schemes --> Using only CSS.
-8. Wallpaper Change --> Using only HTML & CSS.
-9. Replacing JavaScript Click Events --> Using Input Checkboxes Instead.
-10. Responsive Design for PC, Phones & Tablets --> Using Media Queries.
-11. Responsive MegaMenu to List Transformation.
-12. Adding Meta for Matching Browser’s Bar Color with Content.
-13. Compressing Images with WebP Methods for Faster Loading.
-14. No More Lorem.
-15. Additional Transitions & Animations.
+8. Dynamic Selection & Caret Colors --> Using only CSS.
+9. Wallpaper Change --> Using only HTML & CSS.
+10. Dynamic Images Change with Color Scheme & Screen Size
+11. Replacing JavaScript Click Events --> Using Input Checkboxes Instead.
+12. Responsive Design for PC, Phones & Tablets --> Using Media Queries.
+13. Responsive MegaMenu to List Transformation.
+14. Adding Meta for Matching Browser’s Bar Color with Content.
+15. Compressing Images with WebP Methods for Faster Loading.
+16. No More Lorem.
+17. Additional Transitions & Animations.
