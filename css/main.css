@@ -1,4 +1,5 @@
 /* Start Global Rules */
+/* Start Main Variables */
 :root {
   --mainColor: #2196f3;
   --mainColorAlt: #1787e0;
@@ -11,6 +12,7 @@
   --mainPadding: 100px;
   --mainLineHeight: 1.6;
 }
+/* End Main Variables */
 
 * {
   box-sizing: border-box;
@@ -28,6 +30,7 @@
   -o-transition: var(--mainTransition);
 }
 
+/* Start Scroll Bar Styling */
 ::-webkit-scrollbar {
   width: 4px;
 }
@@ -48,6 +51,17 @@
 ::-webkit-scrollbar-thumb:window-inactive {
   background: none;
 }
+/* End Scroll Bar Styling */
+
+/* Selection Colors */
+::-moz-selection {
+  color: var(--mainWhite);
+  background: var(--mainColor);
+}
+::selection {
+  color: var(--mainWhite);
+  background: var(--mainColor);
+}
 
 html {
   scroll-behavior: smooth;
@@ -67,6 +81,7 @@ a {
   text-decoration: none;
 }
 
+/* Start Container And Media Queries */
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -91,6 +106,7 @@ a {
     width: 1170px;
   }
 }
+/* End Container And Media Queries */
 
 .main-title {
   border: 2px solid var(--mainBlack);
@@ -2123,7 +2139,7 @@ a {
 }
 /* End Scroll To Top Button */
 
-/* Start Dark Mode Button */
+/* Start Dark Mode */
 .color-scheme-wrapper {
   background-color: var(--mainWhite);
   color: black;
@@ -2393,7 +2409,7 @@ a {
 .color-scheme-wrapper::-webkit-scrollbar-thumb:window-inactive {
   background: none;
 }
-/* End Dark Mode Button */
+/* End Dark Mode */
 
 /* Start Animation */
 @-webkit-keyframes up-and-down {
