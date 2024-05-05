@@ -2210,6 +2210,10 @@ a {
   background: #fb503b;
 }
 
+#color-mode:checked::after {
+  content: "\e0c9";
+}
+
 #color-mode:checked ~ .color-scheme-wrapper .landing {
   background-color: var(--altBackground);
 }
