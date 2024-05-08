@@ -215,7 +215,6 @@ a {
 /* Start Header */
 .header {
   background-color: var(--mainWhite);
-  box-shadow: 0 0 10px #ddd;
   position: relative;
 }
 
@@ -382,12 +381,19 @@ a {
 .header .mega-menu .links li i {
   margin-right: 10px;
 }
+
+@media (max-width: 991px) and (max-height: 500px) and (orientation: landscape) {
+  .header .logo,
+  .header .main-nav > li > a {
+    height: 50px;
+  }
+}
 /* End Header */
 
 /* Start Landing */
 .landing {
   background-color: #ececec;
-  /* position: relative; */
+  position: relative;
 }
 
 /* .landing::before {
@@ -520,6 +526,43 @@ a {
 .landing .go-down i {
   animation: bouncing 1.5s infinite;
   -webkit-animation: bouncing 1.5s infinite;
+}
+
+@media (max-width: 991px) and (max-height: 500px) and (orientation: landscape) {
+  .landing .container {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .landing .image {
+    width: 300px;
+    /* margin-top: 100px; */
+    position: relative;
+    bottom: -40px;
+  }
+
+  .landing .text {
+    flex: 1;
+    text-align: left;
+  }
+
+  .landing .text h1 {
+    margin-top: 50px;
+    font-size: 32px;
+  }
+
+  .landing .text p {
+    font-size: 18px;
+  }
+
+  .landing::after {
+    height: 30%;
+  }
+
+  .landing .go-down {
+    bottom: 100px;
+  }
 }
 /* End Landing */
 
@@ -1276,6 +1319,12 @@ a {
 
   .work-steps .info .box img {
     margin: 0 0 40px;
+  }
+}
+
+@media (max-width: 991px) and (max-height: 500px) and (orientation: landscape) {
+  .work-steps .image-1 {
+    display: none;
   }
 }
 /* End Work Steps */
