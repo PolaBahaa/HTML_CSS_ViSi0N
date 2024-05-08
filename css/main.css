@@ -382,7 +382,7 @@ a {
   margin-right: 10px;
 }
 
-@media (max-width: 991px) and (max-height: 500px) and (orientation: landscape) {
+@media (max-height: 700px) and (orientation: landscape) {
   .header .logo,
   .header .main-nav > li > a {
     height: 50px;
@@ -528,7 +528,7 @@ a {
   -webkit-animation: bouncing 1.5s infinite;
 }
 
-@media (max-width: 991px) and (max-height: 500px) and (orientation: landscape) {
+@media (max-height: 700px) and (orientation: landscape) {
   .landing .container {
     flex-direction: row;
     align-items: center;
@@ -1322,7 +1322,7 @@ a {
   }
 }
 
-@media (max-width: 991px) and (max-height: 500px) and (orientation: landscape) {
+@media (max-height: 700px) and (orientation: landscape) {
   .work-steps .image-1 {
     display: none;
   }
